@@ -10,12 +10,14 @@ namespace AddressBook
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }    
-        public string Address { get; set; } 
+        public string Address { get; set; }
+        public long Phonenumber { get; set; }
+
+        public string Emailid { get; set; }
         public string City { get; set; }    
         public string State { get; set; }   
-        public int ZipCode { get; set; }
-        public long Phonenumber { get; set; }
-        public string Emailid { get; set; }
+        public long ZipCode { get; set; }
+     
 
 
     }

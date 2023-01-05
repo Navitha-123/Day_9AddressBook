@@ -10,8 +10,11 @@ namespace AddressBook
 
             Console.WriteLine("Welome to address book program");
 
-            UC1CreateContacts addressbook = new UC1CreateContacts();
-            addressbook.CreateContact();
+            //UC1CreateContacts addressbook = new UC1CreateContacts();
+            //addressbook.CreateContact();
+
+            UC2AddContact add = new UC2AddContact();
+            add.AddContact();
 
 
         }
