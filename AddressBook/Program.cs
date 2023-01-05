@@ -13,8 +13,11 @@ namespace AddressBook
             //UC1CreateContacts addressbook = new UC1CreateContacts();
             //addressbook.CreateContact();
 
-            UC2AddContact add = new UC2AddContact();
-            add.AddContact();
+            //UC2AddContact add = new UC2AddContact();
+            //add.AddContact();
+
+            UC3EditContact edit = new UC3EditContact();
+                edit.AddPerson();
 
 
         }
